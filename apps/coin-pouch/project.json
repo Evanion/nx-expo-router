@@ -1,0 +1,8 @@
+{
+  "name": "coin-pouch",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/coin-pouch/src",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
