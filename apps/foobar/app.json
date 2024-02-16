@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "CoinPouch",
-    "slug": "coin-pouch",
+    "name": "Foobar",
+    "slug": "foobar",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,14 +27,6 @@
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
-    "plugins": [
-      [
-        "@config-plugins/detox",
-        {
-          "skipProguard": false,
-          "subdomains": ["10.0.2.2", "localhost"]
-        }
-      ]
-    ]
+    "plugins": []
   }
 }

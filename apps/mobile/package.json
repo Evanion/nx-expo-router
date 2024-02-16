@@ -1,7 +1,8 @@
 {
-  "name": "coin-pouch",
+  "name": "mobile",
   "version": "0.0.1",
   "private": true,
+  "main": "expo-router/entry",
   "dependencies": {
     "@testing-library/jest-native": "*",
     "@testing-library/react-native": "*",
@@ -12,7 +13,7 @@
     "react-native-web": "*"
   },
   "scripts": {
-    "eas-build-pre-install": "cd ../../ && node tools/scripts/eas-build-pre-install.mjs . apps/coin-pouch && cp yarn.lock apps/coin-pouch",
-    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/coin-pouch"
+    "eas-build-pre-install": "cd ../../ && node tools/scripts/eas-build-pre-install.mjs . apps/mobile && cp yarn.lock apps/mobile",
+    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/mobile"
   }
 }

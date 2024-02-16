@@ -1,8 +1,9 @@
 {
-  "name": "coin-pouch",
+  "name": "foobar-e2e",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/coin-pouch/src",
   "projectType": "application",
+  "sourceRoot": "apps/foobar-e2e/src",
   "targets": {},
+  "implicitDependencies": ["foobar"],
   "tags": []
 }

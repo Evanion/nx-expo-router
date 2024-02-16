@@ -1,9 +1,9 @@
 {
-  "name": "coin-pouch-e2e",
+  "name": "mobile-e2e",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/coin-pouch-e2e/src",
+  "sourceRoot": "apps/mobile-e2e/src",
   "projectType": "application",
   "targets": {},
   "tags": [],
-  "implicitDependencies": ["coin-pouch"]
+  "implicitDependencies": ["mobile"]
 }

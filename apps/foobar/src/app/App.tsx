@@ -38,7 +38,7 @@ export const App = () => {
               testID="heading"
               role="heading"
             >
-              Welcome CoinPouch 👋
+              Welcome Foobar 👋
             </Text>
           </View>
           <View style={styles.section}>
@@ -516,7 +516,7 @@ export const App = () => {
               </View>
               <View style={[styles.codeBlock, styles.marginBottomLg]}>
                 <Text style={[styles.textXS, styles.monospace]}>
-                  nx show project CoinPouch --web
+                  nx show project Foobar --web
                 </Text>
               </View>
               <View style={styles.listItem}>
